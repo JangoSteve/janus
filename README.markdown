@@ -255,6 +255,13 @@ HTML, and opens it in your default browser.
 
 **Customizations**: Janus binds `<Leader>p` to this plugin.
 
+## Vim-Preview
+
+[Vim-Preview](https://github.com/greyblake/vim-preview) converts the current page (markdown, textile, rdoc, html, ronn, and reStructuredText) to HTML and opens it in your default browser.
+
+**Customizations**: Janus binds `<Leader>r` to `:Preview` and sets the
+browser command to Mac's default browser command `open`.
+
 ## Additional Syntaxes
 
 Janus ships with a few additional syntaxes:

@@ -59,6 +59,11 @@ if has("gui_macvim")
   " Adjust viewports to the same size
   map <Leader>= <C-w>=
   imap <Leader>= <Esc> <C-w>=
+
+  " Open markdown/textile/html/rdoc/etc in browser
+  let g:PreviewBrowsers = 'open'
+  map <Leader>r :Preview<CR>
+  imap <Leader>r <Esc>:Preview<CR>
 endif
 
 " Start without the toolbar
